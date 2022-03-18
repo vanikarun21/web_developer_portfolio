@@ -70,18 +70,26 @@ h3 {
     font-size: 30px;
     padding: 20px;
     border-right: 5px solid blue;
-   
+    width: 20%;
+    text-align: end;   
+}
+
+#Work h3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
 /*  About me css rules starts here */
-.about_me h3 {
+.about_me  { 
     display: flex;
-    flex-wrap: wrap;
-    
+      
 }
 
 .about_me p {
     justify-content: center;
+    width: 80%;
 }
 
 
@@ -91,9 +99,9 @@ h3 {
 
 
 /* Work main section starts here */
-section h3 {
+/* section h3 { 
     width: 20%;
-}
+}*/
 
 #Work {
     display: flex; 
@@ -128,6 +136,8 @@ section h3 {
 }
 #Horiseon {
     background-image: url(../assests/images/project1.jpg);
+    background-size: cover;
+    height: 500px;
 }
 
 #RunBuddy {
@@ -161,3 +171,12 @@ section h3 {
 }
 
 /* contact me main section  ends here */
+
+@media  screen and (max-width: 375px) {
+    #About {
+        flex-wrap: wrap;
+        margin: 1000px;
+        background-color: green;
+    }
+
+}
