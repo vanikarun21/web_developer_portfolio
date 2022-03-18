@@ -4,104 +4,160 @@
     margin: 0;
 }
 
-body{
-    background-color: lightblue ;
+.header_container {
+    display: flex;  
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  
+  
 }
 
-/* css rules for header html element starts here */
-.flex-container {
+/* h1 and avatar html elements css rules starts here */
+.name {
     display: flex;
 }
-.header {
-    display: flex;
-    
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightblue;
-    color: black;
+
+.name h1 { 
+    font-size: 50px;
+    padding: 30px;
+    color:black;          
 }
 
-.header h1 {
-    display: flex;
-    font-size: 40px;
+.name img {
+    width:150px; height: 150px;    
 }
+/* h1 and avatar html elements css rules ends here */
 
-.header img {
-    height: 150px;
-    width: 100px;
-}
 
-.header nav {
-    align-self: flex-end; 
-    flex-direction: row;
-    padding-top: 15px;
-    margin-right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-
-.header nav ul {
-    list-style-type: none;
-    
-}
-
-.header nav ul li {
-    
+/* nav links starts here */
+.links {
+   list-style-type: none;
+   display: flex; 
    
 }
-/* css rules for header html element ends here */
 
-a { 
-    color: black;
-    text-decoration: none;
+.space {
+    padding: 50px;
 }
+/* nav links end here */
+
+
 
 /* css rules for subtitle starts here */
+
+
 .subtitle {
-    background-image: url("../assests/images/lightblue.jpg");
-    padding: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../assests/images/blackandwhite.jpg");
+    height: 100px;
+}
+
+ .subtitle h2 { 
     font-style: italic;
-    background-color:gray;
-    font-size: 20px;
-    color: black;
-}
-
-.subtitle h2 {
-    float: right;
-}
-/* css rules for subtitle ends here */
-/* css rules for work starts here */
-.project {
-    background-image: url("../assests/images/scott-graham-5fNmWej4tAA-unsplash.jpg");
-}
-
-.project2 {
-    background-image: url("../assests/images/binary.jpg");
-}
-
-.project3 {
-    background-image: url("../assests/images/lightblue.jpg");
-}
-/* footer html element css rules starts here */
-
-.contact h5 {
+    font-size: 40px;
+    color:black;
+    text-align: right;
+    padding: 30px;
    
-    font-size:20px;
 }
-.contact {
-    padding-top: 15px;
-    margin-right: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;   
+ 
+/* css rules for subtitle ends here */
+
+
+
+
+h3 {
+    font-size: 30px;
+    padding: 20px;
+    border-right: 5px solid blue;
+   
 }
 
-.contact ul {
-    list-style-type: none;
-}
-
-.contact ul li {
+/*  About me css rules starts here */
+.about_me h3 {
+    display: flex;
+    flex-wrap: wrap;
     
-    display: inline-block;   
 }
-/* footer html element ends here */
+
+.about_me p {
+    justify-content: center;
+}
+
+
+
+
+/* About me css rules ends here */
+
+
+/* Work main section starts here */
+section h3 {
+    width: 20%;
+}
+
+#Work {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.hp  {
+    background-color: lightgray;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid blue;
+    background-color: red;
+    min-height: 200px;
+    flex-basis: 48%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+}
+
+.flex-item:first-child {
+    min-height:300px ;
+    flex-basis: 96%;
+    
+}
+#Horiseon {
+    background-image: url(../assests/images/project1.jpg);
+}
+
+#RunBuddy {
+    background-image: url(../assests/images/project2.jpg);
+}
+
+#Shopify {
+    background-image: url(../assests/images/project3.jpg);
+}
+/* Work mail secion ends here */
+
+
+
+/* contact me  main section  starts here */
+
+.contact_me {
+    display: flex;
+    flex-wrap: wrap;
+      
+}
+
+.contact_me p {
+    margin: 20px 10px 20px 20px
+
+}
+
+.footer {
+    display: flex; 
+    align-items: center; 
+    
+}
+
+/* contact me main section  ends here */

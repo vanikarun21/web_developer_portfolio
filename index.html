@@ -7,83 +7,116 @@
     <title>Vani Karun</title>
 </head>
 
+<!-- header, nav links , avatar -->
+
 <body>
-    <header class="header">
-        <div>
-        <h1>Vani Karun</h1>
-        <img src="../web_developer_portfolio/assests/images/girl.jpg" alt="profile-photo"/>
-    </div>
+    <header class="header_container">
+        <div class="name">
+            <h1>Vani Karun</h1>
+            <div>
+                <img src="../web_developer_portfolio/assests/images/girl.jpg" alt="profile-photo" />
+            </div>
+        </div>
+
         <nav>
-            <ul class="flex-container">
-                <li>
-                    <a href="#About">About</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact-Me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#Resume">Resume</a>
-                </li>
+            <ul class="links">
+                <li class="space"><a href="#About">About</a></li>
+                <li class="space"><a href="#Work">Work</a></li>
+                <li class="space"><a href="#ContactMe">Contact Me</a></li>
+                <li class="space"><a href="../test_folder/resume.html" target="_blank"
+                        rel="noopener noreferrer">Resume</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- subtitle box with image and subtitle text -->
 
     <figure class="subtitle">
         <h2>Coding is Fun!</h2>
     </figure>
 
-    <main>
-        <section id="About">
-            <h2>About Me</h2>
-            <p>
-                A thoughtful servant leader in leading and supporting teams to deliver quality products for business and IT stakeholders.As a certified Scrum Master and Product Owner, I'm experienced in managing projects for both agile, non-agile, and hybrid methodology teams.
-                In my recent role as a Program Manager, I oversaw IT operations,infrastructure,and risk projects to ensure prioritization aligned with organization goals. Governed over program lifecycle and financials for operational and capital projects.<br>
-                After working in healthcare IT for over seven years in various roles ranging from business anlayst to program manager, I decided to switch to programming.I recenly graduated from University of Minnesota coding bootcamp and I'm looking forward to be employed as a full stack developer.
+    <!-- main section for ABOUT and WORK and CONTACT ME-->
 
-            </p>  
-        </section>
+    <main>
+        <section id="About" class="about_me">
+            <h3>About Me</h3>
+            <p>
+                A thoughtful servant leader in leading and supporting teams to deliver quality products for business and
+                IT
+                stakeholders.As a certified Scrum Master and Product Owner, I'm experienced in managing projects for
+                both
+                agile, non-agile, and hybrid methodology teams.
+                In my recent role as a Program Manager, I oversaw IT operations,infrastructure,and risk projects to
+                ensure
+                prioritization aligned with organization goals. Governed over program lifecycle and financials for
+                operational and capital projects.<br> <br>
+                After working in healthcare IT for over seven years in various roles ranging from business anlayst to
+                program manager, I decided to switch to programming.I recenly graduated from University of Minnesota
+                coding
+                bootcamp and I'm looking forward to be employed as a full stack developer.
+
+            </p>
+        </section> <br> <br>
 
         <section id="Work">
-            <h2>Work</h2>
+            <h3>Work</h3>
             <div class="flex-container">
-                <a href="#">
-                    <div class="project"><!--flexitem-->
-                        <h3>project1
-                        </h3>
-                        <p>Description</p>
+                <a id="Horiseon"class="flex-item" href="https://vanikarun21.github.io/Code-Refactor/" target="_blank" rel="noopener noreferrer"> 
+                    <div class="project hp">
+                        <!--flexitem-->
+                        <h5>Horiseon
+                        </h5>
+                        <p>Marketing agency specialized in seo and social media marketing!</p>
                     </div>
                 </a>
-                <a href="#">
-                    <div class="project2"><!--flexitem-->
-                        <h3>project2
-                        </h3>
-                        <p>Description</p>
+                <a id="RunBuddy"class="flex-item" href="https://vanikarun21.github.io/run_buddy/" target="_blank" rel="noopener noreferrer"> 
+                    <div class="project2 hp">
+                        <!--flexitem-->
+                        <h5>Run Buddy
+                        </h5>
+                        <p>Sign up for a personal trainer to accomplish your weight loss goals!</p>
                     </div>
                 </a>
-                <a href="#">
-                    <div class="project3"><!--flexitem-->
-                        <h3>project3
-                        </h3>
-                        <p>Description</p>
+                <a id="Shopify"class="flex-item" href="https://www.shopify.com/" target="_blank" rel="noopener noreferrer"> 
+                    <div class="project3 hp">
+                        <!--flexitem-->
+                        <h5>Shopify
+                        </h5>
+                        <p>An e-commerce platform!</p>
                     </div>
                 </a>
-
+                <a class="flex-item" href="https://www.shopify.com/" target="_blank" rel="noopener noreferrer"> 
+                    <div class="project3 hp">
+                        <!--flexitem-->
+                        <h5>Shopify
+                        </h5>
+                        <p>An e-commerce platform!</p>
+                    </div>
+                </a>
+                <a class="flex-item" href="https://www.shopify.com/" target="_blank" rel="noopener noreferrer"> 
+                    <div class="project3 hp">
+                        <!--flexitem-->
+                        <h5>Shopify
+                        </h5>
+                        <p>An e-commerce platform!</p>
+                    </div>
+                </a>
             </div>
-    
-        </section>
 
+        </section> <br> <br>
+
+
+
+        <section id="ContactMe" class="contact_me">
+            <h3>Contact Me</h3>
+            <div class="footer">
+                <p>📞<a href="tel:1234567890">123-456-7890 </a></p>
+                <p><a href="mailto:vanikarun21@yahoo.com subject=subject text">vanikarun21@yahoo.com</a></p>
+                <p><a href="https://www.linkedin.com/in/vani-k-86292711b/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a></p>
+            </div>
+        </section> <br> <br>
     </main>
 </body>
 
-<footer id="Contact-Me" class="contact">
-    <h2>Contact Me</h2>
-    <ul>
-        <li>123-456-7890</li>
-        <li>vanikarun21@yahoo.com</li>
-        <li>https://www.linkedin.com/in/vani-k-86292711b/</li>  
-    </ul>
-</footer>
-
+</html>
