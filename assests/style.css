@@ -5,14 +5,14 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: lightblue;
 }
 
 .header_container {
     display: flex;  
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: lightgray;
+  background-color: lightblue;
   
   
 }
@@ -153,10 +153,24 @@ h3 {
 
 #RunBuddy {
     background-image: url(../assests/images/project2.jpg);
+    background-size: cover;
+    height: 300px;
 }
 
 #Shopify {
     background-image: url(../assests/images/project3.jpg);
+}
+
+#AnimalArk {
+    background-image: url(../assests/images/project4.jpg);
+    background-size: cover;
+  
+}
+
+#TheFoodGroup {
+    background-image: url(../assests/images/project5.jpg);
+    height: 300px;
+
 }
 /* Work mail secion ends here */
 
