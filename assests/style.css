@@ -68,7 +68,10 @@ body {
  
 /* css rules for subtitle ends here */
 
-
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 h3 {
@@ -83,18 +86,20 @@ h3 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: 20%;
 
 }
 
 /*  About me css rules starts here */
+
 .about_me  { 
-    display: flex;
-      
+    display: flex;      
 }
 
 .about_me p {
-    justify-content: center;
+   padding:20px 20px ;
     width: 80%;
+  
 }
 
 /* About me css rules ends here */
@@ -104,7 +109,7 @@ h3 {
 
 #Work {
     display: flex; 
-    flex-wrap: wrap;
+    
 }
 
 .hp  {
@@ -122,6 +127,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 80%;
 }
 
 .flex-item {
