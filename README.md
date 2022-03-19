@@ -2,7 +2,8 @@
 # Vani Karun's professional portfolio url 
 * The professional portfolio contains my resume and coding projects. 
 * The work section has a sample of my coding work. When you click the images under work section, the application opens up in a separate tab to view and explore.
-* Contact me section has 
+* Contact me section has linkedIn link that will take you to the profile page. The secion also has phone number and email address to reach out.
+
 https://vanikarun21.github.io/web_developer_portfolio/
 ## User Story
 * AS AN employer
