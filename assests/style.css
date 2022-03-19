@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    background-color: lightgray;
+}
+
 .header_container {
     display: flex;  
   justify-content: space-between;
@@ -31,14 +35,15 @@
 
 
 /* nav links starts here */
+
 .links {
    list-style-type: none;
-   display: flex; 
-   
+   display: flex;      
 }
 
-.space {
-    padding: 50px;
+
+.space{
+    padding: 50px;    
 }
 /* nav links end here */
 
@@ -92,16 +97,10 @@ h3 {
     width: 80%;
 }
 
-
-
-
 /* About me css rules ends here */
 
 
 /* Work main section starts here */
-/* section h3 { 
-    width: 20%;
-}*/
 
 #Work {
     display: flex; 
@@ -110,8 +109,14 @@ h3 {
 
 .hp  {
     background-color: lightgray;
-    
+    color: black;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     
 }
+
 
 .flex-container {
     display: flex;
@@ -172,11 +177,11 @@ h3 {
 
 /* contact me main section  ends here */
 
-@media  screen and (max-width: 375px) {
+/* @media  screen and (max-width: 375px) { 
     #About {
         flex-wrap: wrap;
         margin: 1000px;
         background-color: green;
     }
 
-}
+}*/
